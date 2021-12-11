@@ -1,0 +1,60 @@
+.icon-bar{
+    background-color: dodgerblue;
+    height: 50px;
+    width: auto;
+}
+.icon-bar p{
+    text-align: center;
+    color: floralwhite;
+    font-size: 40px;
+}
+.menu{
+    margin-top: -50px;
+    float: left;
+    width: 50px;
+   
+   }
+
+.pro{
+    margin-top: -50px;
+    float: right;
+    width: 50px;
+}
+.search{
+    margin-top: 30px;
+    float: right;
+    width: 50px;
+    
+}
+.search:hover{
+    border: 1px solid #777;
+}
+.pro:hover{
+    border: 1px solid #777;
+}
+.menu:hover{
+    border: 1px solid #777;
+}
+/*body{
+    background-image:url("./back.jpg") ;
+    height: 900px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}*/
+div.gallery{
+    margin: 30px;
+    float: left;
+    width: 200px;
+   }
+   div.gallery:hover{
+       border: 1px solid #777;
+   }
+   div.desc{
+       padding: 15px;
+       text-align: center;
+   }
+
+
+

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,19 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'PaymentWallet';
+  title(title: any) {
+    throw new Error('Method not implemented.');
+  }
+  constructor(private router: Router) {}
+/*set path in app-routing*/
+  billpayment(): void {
+      this.router.navigateByUrl('billpayment');
+  }
+  transaction():void{
+    this.router.navigateByUrl('transaction');
+  }
+  wallet():void{
+    this.router.navigateByUrl('wallet');
+  }
 }
+
